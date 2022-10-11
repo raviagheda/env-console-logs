@@ -1,5 +1,5 @@
 {
-  "name": "env-console-log",
+  "name": "env-console-logs",
   "version": "1.0.0",
   "description": "show console log based on env configuration",
   "main": "lib/index.js",
@@ -17,6 +17,10 @@
     "dynamic",
     "logs"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/raviagheda/env-console-logs.git"
+  },
   "author": "raviagheda",
   "license": "ISC",
   "devDependencies": {
