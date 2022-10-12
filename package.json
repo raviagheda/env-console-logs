@@ -1,6 +1,6 @@
 {
   "name": "env-console-logs",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "show console log based on env configuration",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -20,6 +20,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/raviagheda/env-console-logs.git"
+  },
+  "publishConfig": {
+    "raviagheda:registry":"https://npm.pkg.github.com"
   },
   "author": "raviagheda",
   "license": "ISC",
