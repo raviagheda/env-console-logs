@@ -1,6 +1,6 @@
 {
   "name": "env-console-logs",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "show console log based on env configuration",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
