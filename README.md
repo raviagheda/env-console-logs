@@ -15,9 +15,17 @@ It uses dotenv package as dependency, so create/update .env file and update it a
 
 And get the function from here
 ``` typescript
-const { consoleLog } = require('env-console-logs');
+const { consoleLog, consoleChalk, consoleTime, consoleTimeEnd } = require('env-console-logs');
 
 consoleLog("Hello World!");
+
+// Try Chalk Integration, visit chalkjs documentation for more detail on color, bgColor and modifiers.
+consoleChalk({ color: 'red', bgColor: 'bgBlue', modifier: 'underline'}, 'Hello', 'World!');
+
+
+// Time logging
+consoleTime();
+consoleTimeEnd();
 ```
 
 To disable it on production, just `enable_console_logs=false` or anything but not `true`
