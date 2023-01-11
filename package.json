@@ -4,13 +4,14 @@
   "description": "show console log based on env configuration",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-
   "scripts": {
     "dev": "nodemon src/index.ts",
     "build": "npx tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "files": ["lib/**/*"],
+  "files": [
+    "lib/**/*"
+  ],
   "keywords": [
     "console.logs",
     "env",
@@ -22,12 +23,13 @@
     "url": "https://github.com/raviagheda/env-console-logs.git"
   },
   "publishConfig": {
-    "raviagheda:registry":"https://npm.pkg.github.com"
+    "raviagheda:registry": "https://npm.pkg.github.com"
   },
   "author": "raviagheda",
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^18.8.4",
+    "chalk": "4.1.2",
     "dotenv": "^16.0.3",
     "typescript": "^4.8.4"
   },
